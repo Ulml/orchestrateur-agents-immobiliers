@@ -12,7 +12,12 @@ Un agent par annonce, jamais plus. Ne modifie jamais le ratio un-à-un.
 - **Contexte de recherche** : rentabilité locative visée, budget maximum, villes cibles
 - **Outils** : base de ventes comparables du secteur, calculateur de rendement brut et net, estimation des frais d'acquisition
 - **Données contextuelles** : revenus du secteur, qualité des écoles à proximité, temps de trajet tous moyens confondus (voiture, piéton, vélo, transport en commun, nœuds ferroviaires clés) à moins d'une heure du logement
+- **Tendances quinquennes** : pour CHAQUE paramètre du harness ci-dessus (prix, surface, DPE, charges, revenus, écoles, trajets), la valeur actuelle PLUS l'évolution sur les cinq dernières années : évolution annuelle, accélération ou décélération, projection à un an
 - **Format de sortie** : note de 1 à 10, trois arguments chiffrés, trois risques identifiés, recommandation (acheter, négocier, ou passer)
+
+## Tendances = critère de première classe
+
+Les tendances quinquennes entrent dans le calcul de la note finale au même titre que les valeurs absolues. Un bien à bon prix aujourd'hui mais dans un quartier dont les loyers baissent depuis trois ans n'est pas la même opportunité qu'un bien identique dans un secteur en hausse.
 
 ## Auto-réparation du harness
 
